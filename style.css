@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("wordimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+#a
+{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10%;
+    background: linear-gradient(to left,
+               rgb(250, 119, 250),
+               blue,
+               yellow,
+               rgb(249, 170, 25));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+#b
+{
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 3, 158);
+}
+#c
+{
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+}
+.button1{
+    background-color:rgb(252, 3, 3);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+.button1:hover
+{
+    background-color: rgb(49, 178, 234);
+}
+.button2{
+    background-color:rgb(252, 3, 3);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+.button2:hover
+{
+    background-color: rgb(49, 178, 234);
+}
+#exit-container {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: rgb(36, 3, 252);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(110, 115, 118);
+}

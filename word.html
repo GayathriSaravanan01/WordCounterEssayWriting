@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-Count</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="https://e7.pngegg.com/pngimages/502/39/png-clipart-colored-pencil-pencil-pencil-pen-thumbnail.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Kaushan+Script&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="word.css">
+    
+</head>
+<body>
+    <div id="container">
+        <button id="me" onclick="index()">
+            <h4>Home</h4>
+        </button>
+        <div id="a1"><h1><b>Word Counter</b></h1></div>
+        <div id="a2">
+        <div id="wordcount">
+            <h3>Words:</h3>
+                <h3 id="cw">0</h3>
+          </div>
+          <div id="charactercount">
+               <h3>Characters:</h3>
+               <h3 id="cc">0</h3>
+          </div>
+          <div id="clear" onclick="clearCounts()">
+            <h3>Clear</h3>
+           </div>
+        </div>
+        <div id="innerContainer">
+            <textarea  id="textarae" placeholder="Type your creativity..!"></textarea>
+        </div>
+    </div>
+    <script src="./word.js"></script>
+</body>
+</html>

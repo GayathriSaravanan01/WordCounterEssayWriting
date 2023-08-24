@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+body{
+  margin: 0px;
+  padding: 0px;
+    background-image: url("homeimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  #container {
+    margin: auto;
+    background-color: rgba(226, 214, 216, 0.712);
+    margin-top: 1em;
+    width: 70%;
+    height: 690px;
+    box-shadow: 0 0 5px 2px rgba(92, 69, 84, 0.644);
+    border-radius: 10px;
+    border-radius: 10px;
+  }
+#a2{
+   position: relative;
+    top: 23px;
+    width: 8%;
+    height: 33px;
+    margin-left: 2%;
+    /* margin-bottom: 10px; */
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(254, 32, 32);
+}
+#a2:hover
+{
+  background-color:rgb(130, 129, 127);
+}
+#a3
+{
+  text-align: center;
+  background: linear-gradient(to left,
+               rgb(250, 119, 250),
+               blue,
+               yellow,
+               rgb(249, 170, 25));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+  .settime {
+    font-size: 100%;
+    margin-left: 1%;
+    /* padding: 1%; */
+    /*padding-bottom:0px; */
+  }
+  
+  input {
+    text-align: center;
+    width: 8%;
+    height: 25px;
+    border-radius: 4px;
+    margin-left: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 192, 203, 0.712);
+    box-shadow: 0px 0px 2px 1px rgb(224, 80, 176, 0.336);
+  }
+  
+  #start {
+    float: right;
+    margin-right: 3%;
+    width: 10%;
+    height: 33px;
+    /* margin-bottom: 10px; */
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(254, 32, 32);
+  }
+  #start:hover
+  {
+    background-color:rgb(255, 188, 62);
+  }
+  
+  #reset {
+    float: right;
+    margin-right: 7%;
+    width: 10%;
+    height: 33px;
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(254, 32, 32);
+  }
+  #reset:hover
+  {
+    background-color:rgb(255, 188, 62);
+  }
+  
+  .timer {
+    width: 93%;
+    padding: 1%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .t {
+    margin-left: 1%;
+    font-size: 100%;
+  }
+  
+  #timer {
+    width: 10%;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+  }
+  
+  #s {
+    font-size: 100%;
+  }
+  
+  .submit {
+    float: left;
+    margin-left: 57%;
+    float: right;
+    width: 10%;
+    height: 33px;
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+    cursor: auto;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(82, 82, 254);
+  }
+  .submit:hover
+  {
+    background-color: rgb(247, 253, 121);
+  }
+  
+  .count {
+    margin-left: 3%;
+    width: 10%;
+    height: 33px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px 2px rgb(255, 206, 239);
+    cursor: auto;
+    /* font-family: 'Kaushan Script', cursive; */
+  } 
+.textarae
+{
+    color: black;
+    width:96%;
+    height: 505px;
+    margin-left: 2%;
+    font-size: 18px;
+    /* padding: 15px;
+    padding: 1px; */
+    outline: none;
+    resize: none;
+    background: rgba(225, 255, 255, 1);
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+    @media (min-width: 320px) and (max-width: 480px) {
+      body {
+        background-image: url("homeimage.jpg");
+      }
+      #container{
+        margin-top: 5%;
+        width: 94%;
+        height: 625px;
+    }
+    #home
+    {
+      padding: 8px 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+    #start
+    {
+      width: 20%;
+    }
+    #reset
+    {
+      width: 20%;
+    }
+    #timer{
+        margin-left:4%;
+        width:100px;
+        margin-left:4%;
+      }
+      .submit {
+        width: 40%; 
+        margin-left: 10px;
+      }
+      .count {
+        width: 50%;
+      }
+      .textarae{
+        width: 95%;
+        height:463px;
+      }
+    }
+    @media (min-width: 481px) and (max-width: 768px)
+    {
+      body {
+        background-image: url("homeimage.jpg");
+      }
+        #container{
+          margin-top: 5%;
+            width:95%;
+            height: 670px;
+        }
+    #home
+    {
+      width: 20%;
+      font-size: 20px;
+      text-align: center;
+    }
+      #timer{
+        margin-left:4%;
+        width:100px;
+        margin-left:6%;
+      }
+      #start
+      {
+        width: 20%;
+      }
+      #reset
+      {
+        width: 20%;
+      }
+      .submit {
+      width: 20%;
+      margin-left: 15%;
+      }
+      .count
+      {
+        width: 20%;
+      }
+      .textarae{
+        width: 95.5%;
+        height:495px;
+      }
+      }
+      @media (min-width: 769px) and (max-width: 1024px)
+      {
+        body {
+          background-image: url("homeimage.jpg");
+        }
+        #container{
+          margin-top: 5%;
+            width:90%;
+            height: 630px;
+        }
+    #home
+    {
+      width: 10%;
+      font-size: 20px;
+      text-align: center;
+    }
+      #timer{
+        margin-left:4%;
+        width:100px;
+        margin-left:6%;
+      }
+      #start
+      {
+        margin-right: 3%;
+        width: 10%;
+      }
+      #reset
+      {
+        margin-right: 8%;
+        width: 10%;
+      }
+      .submit {
+      margin-left: 43%;
+      }
+      .textarae{
+        width: 96%;
+        height:450px;
+      }
+      }
+      @media (min-width: 1025px) and (max-width: 1200px)
+      {
+        body {
+          background-image: url("homeimage.jpg");
+        }
+        #container{
+          margin-top: 5%;
+            width:90%;
+            height: 710px;
+        }
+      #timer{
+        margin-left:4%;
+        width:100px;
+        margin-left:6%;
+      }
+      #start
+      {
+        margin-right: 3%;
+        width: 10%;
+      }
+      #reset
+      {
+        margin-right: 9%;
+        width: 10%;
+      }
+      .submit {
+      margin-left: 48%;
+      }
+      .textarae{
+        width: 96%;
+        height:520px;
+      }
+      }

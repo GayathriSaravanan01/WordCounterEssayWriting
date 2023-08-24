@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("homeimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  #container {
+    margin: auto;
+    background-color: rgba(226, 214, 216, 0.712);
+    margin-top: 1em;
+    width: 70%;
+    height: 690px;
+    box-shadow: 0 0 5px 2px rgba(92, 69, 84, 0.644);
+    border-radius: 10px;
+    border-radius: 10px;
+  }
+  #me{
+    position: relative;
+    top: 23px;
+    width: 8%;
+    height: 33px;
+    margin-left: 2%;
+    /* margin-bottom: 10px; */
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(254, 32, 32);
+    z-index: 1;
+ }
+ #me:hover
+ {
+   background-color:rgb(130, 129, 127);
+ }
+ #me h4 {
+  margin: 0; /* Reset margin to prevent unwanted spacing */
+  padding: 0; /* Reset padding for consistency */
+  pointer-events: none; /* Make the <h4> element "transparent" to pointer events */
+}
+#a1
+{
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+  background: linear-gradient(to left,
+               rgb(250, 119, 250),
+               blue,
+               yellow,
+               rgb(249, 170, 25));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+#a2
+{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#wordcount
+{
+    margin-top: 2px;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    color: rgb(85, 11, 233);
+}
+#cw
+{
+    /* border-style: solid; */
+    width:100px;
+    height: 30px;
+    margin-left: 19px;
+}
+#charactercount
+{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    color: rgb(85, 11, 233);
+}
+#cc
+{
+    /* border-style: solid; */
+    width:100px;
+    height: 30px;
+    margin-left: 30px;
+}  
+#clear
+{ margin-left: 5%;
+  width: 10%;
+  height: 33px;
+  font-size: 22px;
+  /* margin-bottom: 10px; */
+  border: none;
+  border-radius: 5px;
+  /* box-shadow: inset 0px 0px 2px 2px rgb(224, 197, 215); */
+  cursor: pointer;
+  font-family: 'Kaushan Script', cursive;
+  background-color: rgb(254, 32, 32);
+}
+#clear:hover
+{
+  background-color:rgb(255, 188, 62);
+}
+#textarae
+{
+    margin-top: 2%;
+    color: black;
+    width:96%;
+    height: 540px;
+    margin-left: 2%;
+    font-size: 18px;
+    outline: none;
+    resize: none;
+    background: rgba(225, 255, 255, 1);
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+    @media (min-width: 320px) and (max-width: 480px) {
+      body {
+        background-image: url("homeimage.jpg"); 
+      }
+      #container{
+        margin-top: 5%;
+        width: 94%;
+        height: 600px;
+    }
+    #home
+    {
+      width: 15%;
+      font-size: 20px;
+      text-align: center;
+    }
+    #wordcount
+    {
+      font-size: 13px;
+      margin-left: 8%;
+    }
+    #cw
+    {
+      width:45px;
+      margin-left: 1px;
+    }
+    #charactercount
+    {
+      font-size: 13px;
+      margin-left: 2%;
+    }
+    #cc
+    {
+      width:45px;
+      margin-left: 1px;
+    }
+    #clear
+    {
+      font-size: 10px;
+      width: 40px;
+      height: 25px;
+    }
+      #textarae{
+        width: 95%;
+        height:463px;
+      }
+    }
+    @media (min-width: 481px) and (max-width: 768px){
+    body {
+      background-image: url("homeimage.jpg");
+    }
+    #container{
+    margin-top: 5%;
+    width:95%;
+    height: 670px;
+    }
+    #home
+    {
+      width: 70px;
+      font-size: 20px;
+      text-align: center;
+    }
+    #wordcount
+    {
+      font-size: 15px;
+      margin-left: 8%;
+    }
+    #cw
+    {
+      width:80px;
+      margin-left: 2px;
+    }
+    #charactercount
+    {
+      font-size: 15px;
+      margin-left: 2%;
+    }
+    #cc
+    {
+      width:80px;
+      margin-left: 1px;
+    }
+    #clear
+    {
+      width: 70px;
+      margin-right: 50px;
+    }
+      #textarae{
+        width: 95.5%;
+        height:525px;
+      }
+      }
+      @media (min-width: 769px) and (max-width: 1024px)
+      {
+        body {
+          background-image: url("homeimage.jpg");
+        }
+        #container{
+          margin-top: 5%;
+            width:90%;
+            height: 630px;
+        }
+    #home
+    {
+      width: 10%;
+      font-size: 20px;
+      text-align: center;
+    }
+    #wordcount
+    {
+      font-size: 20px;
+      margin-left: 13%;
+    }
+    #cw
+    {
+      width:100px;
+      justify-content: center;
+      margin-left: 6px;
+    }
+    #charactercount
+    {
+      font-size: 25px;
+      margin-left: 3%;
+    }
+    #cc
+    {
+      width:100px;
+      margin-left: 2px;
+    }
+      #textarae{
+        width: 96%;
+        height:480px;
+      }
+      }
+      @media (min-width: 1025px) and (max-width: 1200px)
+      {
+        body {
+          background-image: url("homeimage.jpg");
+        }
+        #container{
+          margin-top: 2%;
+            width:90%;
+            height: 710px;
+        }
+    #wordcount
+    {
+      font-size: 25px;
+    }
+    #cw
+    {
+      width:100px;
+      margin-left: 6px;
+    }
+    #charactercount
+    {
+      font-size: 25px;
+    }
+    #cc
+    {
+      width:100px;
+    }
+      #textarae{
+        width: 96%;
+        height:550px;
+      }
+      }
